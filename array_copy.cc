@@ -7,8 +7,8 @@ using namespace std;
 void array_copy(int array[], int len) 
 {
   //int result[]=new int[len];
-  //int *result=new int[len];
-  int result[len];
+  int *result=new int[len];
+  //int result[len];
   for (int i=0;i<len;i++)
   {
     result[i]=array[i];
