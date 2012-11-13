@@ -22,21 +22,22 @@ public class array_copy {
 	static void print_array(int array[]) {
 		int len = array.length;
 		for (int i = 0; i < len; i++) {
-			System.out.print(array[i]+",");
+			System.out.print(array[i] + ",");
 		}
 		System.out.println();
 	}
 
 	public static void main(String arg[]) {
-		int a[] = {4, 2, 5};
+		int a[] = { 4, 2, 5 };
 
-		  print_array(a);
-		  array_copy(a);
-		  print_array(a);
+		print_array(a);
+		array_copy(a);
+		print_array(a);
+		System.out.println();
 
-		  print_array(a);
-		  array_uncopy(a);
-		  print_array(a);
+		print_array(a);
+		array_uncopy(a);
+		print_array(a);
 
 	}
 }
